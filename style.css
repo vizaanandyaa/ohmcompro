@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
+    background-color: #f1ebe1;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+}
+
+.navbar{
+    margin: 0 100px;
+}
+
+.nav-link{
+    color: #8ba888 !important;
+}
+
+.nav-link:nth-child(2){
+    margin-left: 130px ;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.welcome{
+    padding:100px 0 135px;
+    animation: fadeIn 3s;
+    
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        
+    }
+
+    to{
+        opacity: 1;
+        
+    }
+}
+.welcome h1{
+    font-weight: 700;
+    font-size: 90px;
+    color: #44624a;
+    
+}
+
+.to{
+    font-weight: 600;
+    color: #8ba888;
+    font-size: 18px;
+}
+
+.welcome h3{
+    color: #44624a;
+    font-weight: 600;
+}
+
+.wel_words{
+    
+    padding: 0 80px;
+    font-style: italic;
+    color: #8ba888;
+}
+
+.btn_start{
+    color: #f1ebe1;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #8ba888;
+    border-radius: 5px;
+    padding: 15px 30px;
+    
+}
+
+.btn_start:hover{
+    background-color:#44624a;
+    color: #f1ebe1;
+    transition: 0.5s;
+}
+
+#about{
+    background-color: #8ba888;
+    color: #f1ebe1;
+}
+
+.frame{
+    border: #f1ebe1 solid 1px;
+    padding: 30px;
+}
+
+.head{
+    border-bottom: #f1ebe1 solid 1px;
+    width: 50%;
+    font-weight: 600;
+}
+
+.desc{
+    width: 70%;
+}
+
+.logo{
+    width: 50px;
+}
+
+.visi p{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.misi p{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#services{
+    background-color: #f1ebe1;
+}
+
+path{
+    opacity: 0.3;
+}
+
+.headline{
+    color: #8ba888;
+    padding-top: 90px;
+}
+
+.headline h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.img_serve1{
+    padding: 200px;
+    background: url(images/it.jpg) fixed;
+    background-position: left center;
+}
+
+.img_serve2{
+    padding: 200px;
+    background: url(images/key.jpg) fixed 50%;
+    background-position: left center;
+}
+.img_serve3{
+    padding: 200px;
+    background: url(images/idea.jpg) fixed ;
+    background-position: right center;
+    margin: 100px 0;
+}
+.desc_serve{
+    padding: 100px 80px 110px 50px;
+    color: #8ba888;
+}
+
+.desc_serve h5{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8ba888;
+}
+
+.desc_serve p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.desc_serve a{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 700;
+    background-color: #f1ebe1;
+    color: #8ba888;
+    border: 3px solid #8ba888;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.desc_serve a:hover{
+    background-color: #8ba888;
+    color: #f1ebe1;
+}
+
+.desc_serve:nth-child(2){
+    margin: 90px 0 90px;
+}
+
+.desc_serve:nth-child(3){
+   padding-top: 80px;
+}
+
+
+.carousel{
+    width: 70%;
+    padding: 50px 0;
+}
+
+#work{
+    background-color: #8ba888;
+}
+
+.workhead{
+    color: #f1ebe1;
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.workdesc{
+    padding-bottom: 80px;
+    color: #f1ebe1;
+}
+
+.workdesc a{
+    color: #f1ebe1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.clients{
+    background: #f1ebe1;
+}
+
+.clients h4{
+    font-weight: 700;
+    color: gray;
+    font-size: 30px;
+    padding: 70px 0;
+}
+
+.clients img{
+    width: 100px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.angpur {
+    width: 100% !important;
+}
+
+.clients img:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+.clients p{
+    font-style: italic;
+    opacity: 0.3;
+}
+
+.parallax{
+    background: url("images/prlx.jpg")
+     fixed 100%;
+    background-position: center center;
+}
+
+.parallax-inner{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    padding-right: 10%;
+}
+
+.parallax-inner p{
+    font-style: italic;
+}
+
+.parallax-inner h4{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#contact {
+    background: #8ba888;
+}
+
+.form{
+    padding: 50px 100px 10px 100px;
+}
+
+.form h3{
+    color: #f1ebe1;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.or{
+    color: #f1ebe1;
+    font-weight: 500;
+    margin: 0;
+}
+
+#email {
+
+    margin: 30px 0 15px;
+
+}
+#email, #message{
+    
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1ebe1;
+    color: #8ba888;
+    border: none;
+    width: 90%;
+}
+
+#message{
+    margin-bottom: 10px;
+    height: 150px;
+    
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-style: italic;
+    font-size: 15px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-style: italic;
+    font-size: 15px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-style: italic;
+    font-size: 15px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-style: italic;
+    font-size: 15px;
+  }
+
+input[type=submit]{
+    padding: 10px 30px;
+    width: 90%;
+    color: #44624a;
+    font-weight: 700;
+    background: #f1ebe1;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+input[type=submit]:hover{
+    background: #44624a;
+    color: #f1ebe1;
+    transition: 0.5s;
+}
+
+.footer{
+    padding: 40px 20px;
+    background-color: #44624a;
+    color: #f1ebe1;
+}
+
+.footer img{
+    width: 200px;
+    padding-top: 50px;
+}
+
+.footmenu{
+    padding-top: 30px;
+}
+
+.footmenu ul{
+    padding-left: 100px;
+}
+
+.footmenu ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.footmenu ul li a{
+    text-decoration: none;
+    color: #f1ebe1;
+    font-size: 14px;
+}
+.socials{
+    padding-top: 40px;
+}
+.social{
+    display: flex;
+}
+
+.social i{
+    padding-top: 5px;
+}
+
+.social p{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.copyright{
+    background:#44624a;
+    color: #f1ebe1;
+    padding: 20px 10px 10px;
+    font-size: 12px;
+}
+
+@media (max-width:767px){
+    .carousel{
+        width: 100%;
+    }
+}
