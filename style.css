@@ -176,18 +176,18 @@ path{
 
 .img_serve1{
     padding: 200px;
-    background: url(images/it.jpg) fixed;
+    background: url("it.jpg") fixed;
     background-position: left center;
 }
 
 .img_serve2{
     padding: 200px;
-    background: url(images/key.jpg) fixed 50%;
+    background: url("key.jpg") fixed 50%;
     background-position: left center;
 }
 .img_serve3{
     padding: 200px;
-    background: url(images/idea.jpg) fixed ;
+    background: url("idea.jpg") fixed ;
     background-position: right center;
     margin: 100px 0;
 }
@@ -292,7 +292,7 @@ path{
 }
 
 .parallax{
-    background: url("images/prlx.jpg")
+    background: url("prlx.jpg")
      fixed 100%;
     background-position: center center;
 }
